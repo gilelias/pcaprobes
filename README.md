@@ -1,7 +1,7 @@
-# pcaprob
-## Extract prob requests from pcap file
+# pcaprobes
+## Extract probe requests from pcap file
 ### compile:
-```gcc main.c -o pcaprob```
+```gcc main.c -o pcaprobes```
 
 ### use:
-``` ./pcaprob capture.pcap | sort | uniq ```
+``` ./pcaprobes capture.pcap | sort | uniq ```
